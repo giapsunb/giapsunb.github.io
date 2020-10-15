@@ -1,5 +1,4 @@
-# DashGen
-Repositório da ferramenta para geração flexível de dashboards.
+> ACESSE O REPOSITÓRIO DA DASHGEN EM: [https://github.com/giapsunb/DashGen](https://github.com/giapsunb/DashGen)
 
 ## Tabela de conteúdo:
   1. [Informações Básicas](#informações-básicas)
