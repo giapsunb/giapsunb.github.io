@@ -1,16 +1,18 @@
 > ACESSE O REPOSITÓRIO DA DASHGEN EM: [https://github.com/giapsunb/DashGen](https://github.com/giapsunb/DashGen)
 
 ## Tabela de conteúdo:
-  1. [Informações Básicas](#informações-básicas)
-  1. [Criando o ambiente de Desenvolvimento](#criando-o-ambiente-de-desenvolvimento)
-      1. [Build Backend](#build-backend)
-      1. [Build Frontend](#build-frontend)
-      1. [Boas práticas](#boas-práticas)
-  1. [Versionamento](#versionamento)
-  1. [Pesquisadores Responsáveis](#pesquisadores-responsáveis)
-  1. [Licença](#licença)
+
+1. [Informações Básicas](#informações-básicas)
+1. [Criando o ambiente de Desenvolvimento](#criando-o-ambiente-de-desenvolvimento)
+   1. [Build Backend](#build-backend)
+   1. [Build Frontend](#build-frontend)
+   1. [Boas práticas](#boas-práticas)
+1. [Versionamento](#versionamento)
+1. [Pesquisadores Responsáveis](#pesquisadores-responsáveis)
+1. [Licença](#licença)
 
 ## Informações Básicas
+
 > Projeto - GIAPS (MS/CIC/EST)
 
 ## Criando o ambiente de Desenvolvimento
@@ -21,9 +23,8 @@ A DashGen contém duas aplicações. O [backend](#build-backend) construído em 
 
 > Para executar o backend você precisa de:
 
-* [Python3](https://www.python.org/download/releases/3.0/)
-* [venv](https://docs.python.org/3/library/venv.html)
-
+- [Python3](https://www.python.org/download/releases/3.0/)
+- [venv](https://docs.python.org/3/library/venv.html)
 
 Clone o backend
 
@@ -34,6 +35,7 @@ git clone --branch develop https://github.com/giapsunb/DashGen/ backend-dashgen
 O primeiro passo é criar um ambiente virtual (_venv_). Com a _venv_ a aplicação terá um ambiente isolado para instalar as dependências do projeto
 
 Entre na pasta do projeto
+
 ```sh
 cd backend-dashgen
 ```
@@ -63,11 +65,13 @@ pip install -r requirements.txt
 ```
 
 Rodando servidor de desenvolvimento
+
 ```sh
 export FLASK_APP=src.main && export FLASK_ENV=development
 ```
 
 Por fim, execute a aplicação
+
 ```sh
 flask run
 ```
@@ -80,9 +84,8 @@ Pronto! A aplicação frontend está em execução, por padrão a aplicação es
 
 > Para executar o frontend você precisa de:
 
-* [Node.js](https://nodejs.org/)
-* [Yarn](https://yarnpkg.com)
-
+- [Node.js](https://nodejs.org/)
+- [Yarn](https://yarnpkg.com)
 
 Clone repositório do frontend
 
@@ -91,11 +94,13 @@ git clone --branch dashgen-ui https://github.com/giapsunb/DashGen/ frontend-dash
 ```
 
 Entre na pasta do projeto
+
 ```sh
 cd frontend-dashgen
 ```
 
 Instale as dependências
+
 ```sh
 yarn install
 ```
@@ -108,8 +113,8 @@ yarn start
 
 Pronto! A aplicação frontend está em execução, por padrão a aplicação está disponível na porta _3000_
 
-
 Instale as dependências
+
 ```sh
 export REACT_APP_API_URL=http://localhost:5000
 ```
@@ -131,15 +136,15 @@ Seguimos algumas práticas para manter um padrão no código do projeto .
 
 ## Versionamento
 
-Nós usamos [Semantic Versioning](http://semver.org/) para versionamento. Para mais versões disponíveis, veja [Versões](https://github.com/giapsunb/DashGen/tags). 
+Nós usamos [Semantic Versioning](http://semver.org/) para versionamento. Para mais versões disponíveis, veja [Versões](https://github.com/giapsunb/DashGen/tags).
 
 ## Pesquisadores Responsáveis
 
-* [Flávio Vidal (CIC/UnB)](https://github.com/fbvidal)
-* [Hudson dos Santos](https://github.com/hdusantos)
-* [Davi Dupin](https://github.com/DaviDupin)
+- [Flávio Vidal (CIC/UnB)](https://github.com/fbvidal)
+- [Hudson dos Santos](https://github.com/hdusantos)
+- [Davi Dupin](https://github.com/DaviDupin)
 
-
+* [Higor Santos](https://github.com/HigorSantosCIC)
 
 ## Licença
 
