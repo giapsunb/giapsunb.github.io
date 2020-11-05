@@ -143,8 +143,7 @@ Nós usamos [Semantic Versioning](http://semver.org/) para versionamento. Para m
 - [Flávio Vidal (CIC/UnB)](https://github.com/fbvidal)
 - [Hudson dos Santos](https://github.com/hdusantos)
 - [Davi Dupin](https://github.com/DaviDupin)
-
-* [Higor Santos](https://github.com/HigorSantosCIC)
+- [Higor Santos](https://github.com/HigorSantosCIC)
 
 ## Licença
 
